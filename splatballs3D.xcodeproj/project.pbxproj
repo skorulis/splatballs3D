@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26576E5F15E77E8B00FAFFD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26576E5E15E77E8B00FAFFD1 /* UIKit.framework */; };
+		26576E6115E77E8B00FAFFD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26576E6015E77E8B00FAFFD1 /* Foundation.framework */; };
+		26576E6315E77E8B00FAFFD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26576E6215E77E8B00FAFFD1 /* CoreGraphics.framework */; };
+		26576E6515E77E8B00FAFFD1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26576E6415E77E8B00FAFFD1 /* GLKit.framework */; };
+		26576E6715E77E8B00FAFFD1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26576E6615E77E8B00FAFFD1 /* OpenGLES.framework */; };
+		26576E6D15E77E8B00FAFFD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26576E6B15E77E8B00FAFFD1 /* InfoPlist.strings */; };
+		26576E6F15E77E8B00FAFFD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26576E6E15E77E8B00FAFFD1 /* main.m */; };
+		26576E7315E77E8B00FAFFD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26576E7215E77E8B00FAFFD1 /* AppDelegate.m */; };
+		26576E7515E77E8B00FAFFD1 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 26576E7415E77E8B00FAFFD1 /* Shader.fsh */; };
+		26576E7715E77E8B00FAFFD1 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 26576E7615E77E8B00FAFFD1 /* Shader.vsh */; };
+		26576E7A15E77E8B00FAFFD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26576E7915E77E8B00FAFFD1 /* ViewController.m */; };
+		26576E7D15E77E8B00FAFFD1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26576E7B15E77E8B00FAFFD1 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26576E5A15E77E8B00FAFFD1 /* splatballs3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = splatballs3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26576E5E15E77E8B00FAFFD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26576E6015E77E8B00FAFFD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26576E6215E77E8B00FAFFD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26576E6415E77E8B00FAFFD1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		26576E6615E77E8B00FAFFD1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		26576E6A15E77E8B00FAFFD1 /* splatballs3D-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "splatballs3D-Info.plist"; sourceTree = "<group>"; };
+		26576E6C15E77E8B00FAFFD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26576E6E15E77E8B00FAFFD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26576E7015E77E8B00FAFFD1 /* splatballs3D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "splatballs3D-Prefix.pch"; sourceTree = "<group>"; };
+		26576E7115E77E8B00FAFFD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26576E7215E77E8B00FAFFD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26576E7415E77E8B00FAFFD1 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		26576E7615E77E8B00FAFFD1 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		26576E7815E77E8B00FAFFD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26576E7915E77E8B00FAFFD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26576E7C15E77E8B00FAFFD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26576E5715E77E8B00FAFFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26576E5F15E77E8B00FAFFD1 /* UIKit.framework in Frameworks */,
+				26576E6115E77E8B00FAFFD1 /* Foundation.framework in Frameworks */,
+				26576E6315E77E8B00FAFFD1 /* CoreGraphics.framework in Frameworks */,
+				26576E6515E77E8B00FAFFD1 /* GLKit.framework in Frameworks */,
+				26576E6715E77E8B00FAFFD1 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26576E4F15E77E8B00FAFFD1 = {
+			isa = PBXGroup;
+			children = (
+				26576E6815E77E8B00FAFFD1 /* splatballs3D */,
+				26576E5D15E77E8B00FAFFD1 /* Frameworks */,
+				26576E5B15E77E8B00FAFFD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26576E5B15E77E8B00FAFFD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26576E5A15E77E8B00FAFFD1 /* splatballs3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26576E5D15E77E8B00FAFFD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26576E5E15E77E8B00FAFFD1 /* UIKit.framework */,
+				26576E6015E77E8B00FAFFD1 /* Foundation.framework */,
+				26576E6215E77E8B00FAFFD1 /* CoreGraphics.framework */,
+				26576E6415E77E8B00FAFFD1 /* GLKit.framework */,
+				26576E6615E77E8B00FAFFD1 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26576E6815E77E8B00FAFFD1 /* splatballs3D */ = {
+			isa = PBXGroup;
+			children = (
+				26576E7115E77E8B00FAFFD1 /* AppDelegate.h */,
+				26576E7215E77E8B00FAFFD1 /* AppDelegate.m */,
+				26576E7415E77E8B00FAFFD1 /* Shader.fsh */,
+				26576E7615E77E8B00FAFFD1 /* Shader.vsh */,
+				26576E7815E77E8B00FAFFD1 /* ViewController.h */,
+				26576E7915E77E8B00FAFFD1 /* ViewController.m */,
+				26576E7B15E77E8B00FAFFD1 /* ViewController.xib */,
+				26576E6915E77E8B00FAFFD1 /* Supporting Files */,
+			);
+			path = splatballs3D;
+			sourceTree = "<group>";
+		};
+		26576E6915E77E8B00FAFFD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26576E6A15E77E8B00FAFFD1 /* splatballs3D-Info.plist */,
+				26576E6B15E77E8B00FAFFD1 /* InfoPlist.strings */,
+				26576E6E15E77E8B00FAFFD1 /* main.m */,
+				26576E7015E77E8B00FAFFD1 /* splatballs3D-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26576E5915E77E8B00FAFFD1 /* splatballs3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26576E8015E77E8B00FAFFD1 /* Build configuration list for PBXNativeTarget "splatballs3D" */;
+			buildPhases = (
+				26576E5615E77E8B00FAFFD1 /* Sources */,
+				26576E5715E77E8B00FAFFD1 /* Frameworks */,
+				26576E5815E77E8B00FAFFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = splatballs3D;
+			productName = splatballs3D;
+			productReference = 26576E5A15E77E8B00FAFFD1 /* splatballs3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26576E5115E77E8B00FAFFD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Alex Skorulis";
+			};
+			buildConfigurationList = 26576E5415E77E8B00FAFFD1 /* Build configuration list for PBXProject "splatballs3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26576E4F15E77E8B00FAFFD1;
+			productRefGroup = 26576E5B15E77E8B00FAFFD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26576E5915E77E8B00FAFFD1 /* splatballs3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26576E5815E77E8B00FAFFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26576E6D15E77E8B00FAFFD1 /* InfoPlist.strings in Resources */,
+				26576E7515E77E8B00FAFFD1 /* Shader.fsh in Resources */,
+				26576E7715E77E8B00FAFFD1 /* Shader.vsh in Resources */,
+				26576E7D15E77E8B00FAFFD1 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26576E5615E77E8B00FAFFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26576E6F15E77E8B00FAFFD1 /* main.m in Sources */,
+				26576E7315E77E8B00FAFFD1 /* AppDelegate.m in Sources */,
+				26576E7A15E77E8B00FAFFD1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26576E6B15E77E8B00FAFFD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26576E6C15E77E8B00FAFFD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26576E7B15E77E8B00FAFFD1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26576E7C15E77E8B00FAFFD1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26576E7E15E77E8B00FAFFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		26576E7F15E77E8B00FAFFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26576E8115E77E8B00FAFFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "splatballs3D/splatballs3D-Prefix.pch";
+				INFOPLIST_FILE = "splatballs3D/splatballs3D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26576E8215E77E8B00FAFFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "splatballs3D/splatballs3D-Prefix.pch";
+				INFOPLIST_FILE = "splatballs3D/splatballs3D-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26576E5415E77E8B00FAFFD1 /* Build configuration list for PBXProject "splatballs3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26576E7E15E77E8B00FAFFD1 /* Debug */,
+				26576E7F15E77E8B00FAFFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26576E8015E77E8B00FAFFD1 /* Build configuration list for PBXNativeTarget "splatballs3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26576E8115E77E8B00FAFFD1 /* Debug */,
+				26576E8215E77E8B00FAFFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26576E5115E77E8B00FAFFD1 /* Project object */;
+}
